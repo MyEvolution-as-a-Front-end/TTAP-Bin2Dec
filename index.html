@@ -7,8 +7,13 @@
     <title>Bin2Dec</title>
   </head>
   <body>
-    <input type="text" name="field-bin" id="field-bin" />
-    <button onclick="">Convert</button>
+    <input
+      type="text"
+      name="field-bin"
+      id="field-bin"
+      onchange="bin2dec(this.value)"
+    />
+    <button onclick="bin2dec()">Convert</button>
     <script src="./scripts/bin2dec.js"></script>
   </body>
 </html>
