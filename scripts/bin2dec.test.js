@@ -6,6 +6,6 @@ describe('bin2dec', () => {
   })
 
   it('should convert a binary number to decimal', () => {
-    expect(bin2dec(101)).toBe(5)
+    expect(bin2dec('101')).toBe(5)
   })
 })
